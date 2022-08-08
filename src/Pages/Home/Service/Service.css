@@ -1,0 +1,14 @@
+.service {
+
+    border: 1pt solid lightseagreen;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.service img {
+    height: 300px;
+    width: 300px;
+}
