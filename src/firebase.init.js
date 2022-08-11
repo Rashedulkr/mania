@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDOoZFy6qiZM_Nc7DI-u4In1j3fQGWNDkI",
-    authDomain: "muscle-mania-gym-center.firebaseapp.com",
-    projectId: "muscle-mania-gym-center",
-    storageBucket: "muscle-mania-gym-center.appspot.com",
-    messagingSenderId: "132687365166",
-    appId: "1:132687365166:web:e1c004aab93e19fc0b4bbf"
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
